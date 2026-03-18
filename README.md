@@ -1,17 +1,16 @@
 # K8s Kind Voting App
 
-A comprehensive guide for setting up a Kubernetes cluster using Kind on an AWS EC2 instance, installing and configuring Argo CD, and deploying applications using Argo CD.
+A comprehensive guide for setting up a local Kubernetes cluster using Kind, deploying a voting application, and configuring monitoring with Prometheus and Grafana.
 
 ## Overview
 
 This guide covers the steps to:
-- Launch an AWS EC2 instance.
-- Install Docker and Kind.
-- Create a Kubernetes cluster using Kind.
-- Install and access kubectl.
-- Set up the Kubernetes Dashboard.
-- Install and configure Argo CD.
-- Connect and manage your Kubernetes cluster with Argo CD.
+Install Docker and Kind on a local machine.
+Create a local Kubernetes cluster using Kind.
+Install and access kubectl.
+Deploy a voting application with multiple services (vote, result, Redis, database, worker).
+Install and configure monitoring using Prometheus and Grafana via Helm charts.
+Access dashboards to observe application metrics and application health.
 
 
 ## Architecture
@@ -31,30 +30,27 @@ This guide covers the steps to:
 
 
 
-## Resume Description
+Automated Deployment of Local Kubernetes Applications with Monitoring
 
-### Project Title: 
+Description:
 
-Automated Deployment of Scalable Applications on AWS EC2 with Kubernetes and Argo CD
+Led the deployment of a scalable voting application on a local Kind Kubernetes cluster using Helm charts for monitoring with Prometheus and Grafana. Managed services, dashboards, and metrics for real-time observation and efficient resource utilization.
 
-### Description: 
+Key Technologies:
 
-Led the deployment of scalable applications on AWS EC2 using Kubernetes and Argo CD for streamlined management and continuous integration. Orchestrated deployments via Kubernetes dashboard, ensuring efficient resource utilization and seamless scaling.
-
-### Key Technologies:
-
-* AWS EC2: Infrastructure hosting for Kubernetes clusters.
-* Kubernetes Dashboard: User-friendly interface for managing containerized applications.
-* Argo CD: Continuous Delivery tool for automated application deployments.
+Kind for local Kubernetes cluster setup.
+Docker for containerizing applications and services.
+Helm for deploying Prometheus and Grafana stack.
+Prometheus and Grafana for observability and monitoring.
+Python, Node.js, .NET, Redis, and Postgres for core application functionality.
+kubectl as CLI tool for Kubernetes management.
 
 ### Achievements:
 
-Implemented Kubernetes dashboard for visual management of containerized applications on AWS EC2 instances.
-Utilized Argo CD for automated deployment pipelines, enhancing deployment efficiency by 60%.
-Achieved seamless scaling and high availability, supporting 99.9% uptime for critical applications.
-This project description emphasizes your role in leveraging AWS EC2, Kubernetes, and Argo CD to optimize application deployment and management processes effectively.
+Successfully deployed a multi-service voting application on a local Kind Kubernetes cluster.
+Integrated Prometheus and Grafana dashboards for real-time monitoring.
+Automated deployment using Helm charts for faster setup and testing.
+Designed architecture for scalability, observability, and resilience in a local development environment.
 
 
-### Aapke DevOps Wale Bhaiya
-### [TrainWithShubham](https://www.trainwithshubham.com/)
 
